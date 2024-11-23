@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+    <link rel="stylesheet" href="enrollment_form.css">
+</head>
+<body>
+    <header>
+        <h1>Student Enrollment Form</h1>
+    </header>
+    <h3 style="color:black;">Instructions:</h3>
+    <ol>
+        <li>Fill in the form fields.</li>
+        <li>Check your interests.</li>
+        <li>Click "Enroll Now" to submit.</li>
+    </ol>
+
+    <form action="#" method="post">
+        <label for="fullName">Full Name:</label>
+        <input style="background-color:cadetblue;"type="text" id="fullName" name="fullName" required><br><br>
+
+        <label for="email">Email Address:</label>
+        <input style="background-color:cadetblue;" type="email" id="email" name="email" required><br><br>
+
+        <label for="age">Age:</label>
+        <input style="background-color:cadetblue;"type="number" id="age" name="age" required><br><br>
+
+        <label>Sex:</label>
+        <input style="background-color:cadetblue;"type="radio" id="male" name="sex" value="male"> <label for="male">Male</label> <input type="radio" id="female" name="sex" value="female"> <label for="female">Female</label><br><br>
+         
+        <label for="course">Course Options:</label>
+        <select style="background-color:cadetblue;"id="course" name="course">
+            <option></option>
+            <option value="BSIT">BSIT</option>
+            <option value="BSSW">BSSW</option>
+            <option value="BSPA">BSPA</option>
+            <option value="BSCS">BSCS</option>
+        </select><br><br>
+
+        <label>Interests:</label><br>
+        <input type="checkbox" id="webDev" name="interests" value="Web Development">
+        <label for="webDev">Web Development</label><br>
+        <input type="checkbox" id="dataScience" name="interests" value="Data Science">
+        <label for="dataScience">Data Science</label><br>
+        <input type="checkbox" id="networking" name="interests" value="Networking">
+        <label for="networking">Networking</label><br>
+        <input type="checkbox" id="graphicDesign" name="interests" value="Graphic Design">
+        <label for="graphicDesign">Graphic Design</label><br><br>
+
+        <button type="submit">Enroll Now</button>
+    </form>
+
+    <h3 style="color:black;">Student Data</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>Sex</th>
+                <th>Course</th>
+                <th>Interests</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Mark John Cruz</td>
+                <td>markjohn_cruz@gmail.com</td>
+                <td>20</td>
+                <td>Male</td>
+                <td>BSIT</td>
+                <td>Web Development, Data Science</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jane Amarillio</td>
+                <td>jane.amarillio12@gmail.com</td>
+                <td>22</td>
+                <td>Female</td>
+                <td>BSSW</td>
+                <td>Networking, Graphic Design</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Andrew Buenaventura</td>
+                <td>buenaventura_andrew@gmail.com</td>
+                <td>19</td>
+                <td>Male</td>
+                <td>BSPA</td>
+                <td>Web Development</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Emily Dizon</td>
+                <td>emilydizon321@gmail.com</td>
+                <td>21</td>
+                <td>Female</td>
+                <td>BSCS</td>
+                <td>Data Science, Networking</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Christian Dela Peña</td>
+                <td>christian@gmail.com</td>
+ <td>23</td>
+                <td>Male</td>
+                <td>BSIT</td>
+                <td>Graphic Design</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Alice Guo</td>
+                <td>aliceguo11@gmail.com</td>
+                <td>20</td>
+                <td>Female</td>
+                <td>BSSW</td>
+                <td>Web Development, Data Science</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>David William</td>
+                <td>david1@gmail.com</td>
+                <td>24</td>
+                <td>Male</td>
+                <td>BSPA</td>
+                <td>Networking</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Laura Taylor</td>
+                <td>laura@gmail.com</td>
+                <td>22</td>
+                <td>Female</td>
+                <td>BSCS</td>
+                <td>Graphic Design, Web Development</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>James Anderson</td>
+                <td>andersonjames@gmail.com</td>
+                <td>24</td>
+                <td>Male</td>
+                <td>BSIT</td>
+                <td>Data Science</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Sarah Geronimo</td>
+                <td>sarahG123@gmail.com</td>
+                <td>34</td>
+                <td>Female</td>
+                <td>BSSW</td>
+                <td>Networking, Graphic Design</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
